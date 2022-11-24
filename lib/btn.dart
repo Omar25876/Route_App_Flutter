@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'android_screen.dart';
-
 class btn extends StatelessWidget {
   btn({required this.courseName,required this.OnCliked});
   String courseName;
