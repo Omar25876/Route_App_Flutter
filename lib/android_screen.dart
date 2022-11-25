@@ -13,11 +13,11 @@ class AndroidScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        backGround(),
+        const backGround(),
         Scaffold(
           backgroundColor: Colors.transparent,
           appBar: AppBar(
-            title: Text(
+            title: const Text(
               'RouteAppOne',
               style: TextStyle(
                 fontSize: 23,
@@ -26,7 +26,7 @@ class AndroidScreen extends StatelessWidget {
             backgroundColor: Colors.deepPurple.shade900,
           ),
           body: ListView(
-            padding: EdgeInsets.fromLTRB(4, 2, 2, 2),
+            padding: const EdgeInsets.fromLTRB(4, 2, 2, 2),
             children: [
               img(
                 path: 'lib/assets/Android.jpeg',

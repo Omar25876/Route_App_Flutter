@@ -20,9 +20,10 @@ class btn extends StatelessWidget {
           Navigator.pushNamed(context, OnCliked);
         },
         style: const ButtonStyle(
+          elevation: MaterialStatePropertyAll(0),
           backgroundColor: MaterialStatePropertyAll(Color(0xFF104AD1)),
         ),
-        child: Text('$courseName',style: const TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+        child: Text('$courseName  ',style: const TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
       ),
     );
   }

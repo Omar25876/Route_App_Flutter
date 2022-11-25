@@ -18,10 +18,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-           HomeScreen.route:(context)=> HomeScreen(),
-        AndroidScreen.route:(context)=> AndroidScreen(),
-        IosScreen.route:(context)=> IosScreen(),
-        FullstackScreen.route:(context)=> FullstackScreen(),
+           HomeScreen.route:(context)=> const HomeScreen(),
+        AndroidScreen.route:(context)=> const AndroidScreen(),
+        IosScreen.route:(context)=> const IosScreen(),
+        FullstackScreen.route:(context)=> const FullstackScreen(),
       },
       initialRoute: HomeScreen.route ,
     );

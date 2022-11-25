@@ -13,15 +13,15 @@ class FullstackScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        backGround(),
+        const backGround(),
         Scaffold(
           backgroundColor: Colors.transparent,
           appBar: AppBar(
-            title: Text('RouteAppOne',style: TextStyle(fontSize: 23,),),
+            title: const Text('RouteAppOne',style: TextStyle(fontSize: 23,),),
             backgroundColor: Colors.deepPurple.shade900,
           ),
           body: ListView(
-            padding: EdgeInsets.fromLTRB(4, 2, 2, 2),
+            padding: const EdgeInsets.fromLTRB(4, 2, 2, 2),
             children: [
               img(path:'lib/assets/fullStack.jpeg',),
 
