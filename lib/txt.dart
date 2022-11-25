@@ -8,7 +8,7 @@ class txt extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       '$textlist',
-      style: TextStyle(
+      style: const TextStyle(
         color: CupertinoColors.white,
         fontSize: 23,
         fontWeight: FontWeight.bold,

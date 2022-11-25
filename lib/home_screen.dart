@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('RouteAppOne',style: TextStyle(fontSize: 23,),),
+        title: const Text('RouteAppOne',style: TextStyle(fontSize: 23,),),
         backgroundColor: Colors.deepPurple.shade900,
       ),
       

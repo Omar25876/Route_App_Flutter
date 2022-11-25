@@ -8,7 +8,7 @@ class img extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: EdgeInsets.fromLTRB(25, 15, 25, 15),
+        padding: const EdgeInsets.fromLTRB(25, 15, 25, 15),
         child: Image.asset(path));
   }
 }
