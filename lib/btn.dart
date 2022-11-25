@@ -9,20 +9,20 @@ class btn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.fromLTRB(8, 2, 8, 12),
-      padding: EdgeInsets.fromLTRB(30, 6, 30, 6),
+      margin: const EdgeInsets.fromLTRB(8, 2, 8, 12),
+      padding: const EdgeInsets.fromLTRB(30, 6, 30, 6),
       decoration: BoxDecoration(
-        color:Color(0xFF104AD1),
+        color:const Color(0xFF104AD1),
         borderRadius: BorderRadius.circular(20),
       ),
       child: ElevatedButton(
         onPressed: (){
           Navigator.pushNamed(context, OnCliked);
         },
-        style: ButtonStyle(
+        style: const ButtonStyle(
           backgroundColor: MaterialStatePropertyAll(Color(0xFF104AD1)),
         ),
-        child: Text('$courseName',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+        child: Text('$courseName',style: const TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
       ),
     );
   }
